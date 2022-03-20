@@ -12,5 +12,6 @@ describe('ParentComponent', () => {
         const wrapper = mount(ParentComponent)
 
         expect(wrapper.find('.spanInChild').exists()).toBe(true)
+        expect(wrapper.find('.spanInChild').text()).toBe('Message from child component')
     })
 })
