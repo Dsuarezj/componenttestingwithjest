@@ -1,14 +1,14 @@
 <template>
-  <child-component />
+  <child-component-refactor />
 </template>
 
 <script>
-import ChildComponent from '@/components/ChildComponent.vue'
+import ChildComponentRefactor from '@/components/ChildComponentRefactor.vue'
 
 export default {
   name: 'ParentComponent',
   components: {
-    ChildComponent
+    ChildComponentRefactor
   }
 }
 </script>
